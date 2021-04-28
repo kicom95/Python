@@ -22,12 +22,12 @@
    * activate test
  * deactivate env_name
    * deactivate test       
-
+ * [Export and Create conda environment with yml](https://shandou.medium.com/export-and-create-conda-environment-with-yml-5de619fe5a2)
+   * conda env export > environment_droplet.yml
+   * conda env create -f environment.yml
 ## Package Management
   * conda install package name
     * conda install simplejson
   * conda list  
 
-## [Export and Create conda environment with yml](https://shandou.medium.com/export-and-create-conda-environment-with-yml-5de619fe5a2)
-  * conda env export > environment_droplet.yml
-  * conda env create -f environment.yml
+## 
