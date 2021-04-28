@@ -1,3 +1,4 @@
+* Conda is an open-source, cross-platform, language-agnostic package manager and environment management system.
 
 ## Version Check & Update
  * conda --version
