@@ -1,3 +1,4 @@
+## Introduction
 * Conda is an open-source, cross-platform, language-agnostic package manager and environment management system.
   * [Managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
@@ -12,6 +13,7 @@
    * conda create -n test python=3.5
    * conda env create --name envname --file=environments.yml
    * conda create --prefix ./envs jupyterlab=0.35 matplotlib=3.1 numpy=1.16
+ * conda create --name clone_envname --**clone** envname
  * conda remove --name (-n) env_name --all
   * conda remove --name test -all   
  * conda clean --all ( -a)
@@ -25,3 +27,7 @@
   * conda install package name
     * conda install simplejson
   * conda list  
+
+## [Export and Create conda environment with yml](https://shandou.medium.com/export-and-create-conda-environment-with-yml-5de619fe5a2)
+  * conda env export > environment_droplet.yml
+  * conda env create -f environment.yml
