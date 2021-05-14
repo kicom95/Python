@@ -5,6 +5,7 @@
 ## Version Check & Update
  * conda --version
  * conda update conda
+ * conda update ipython
  
 ## Virtual Env
  * conda info --envs
@@ -13,6 +14,9 @@
    * conda create -n test python=3.5
    * conda env create --name envname --file=environments.yml
    * conda create --prefix ./envs jupyterlab=0.35 matplotlib=3.1 numpy=1.16
+   * conda create -n py3k python=3 anaconda
+    * activate py3k
+    * deactivate py3k
  * conda create --name clone_envname --**clone** envname
  * conda remove --name (-n) env_name --all
   * conda remove --name test -all   
@@ -29,5 +33,3 @@
   * conda install package name
     * conda install simplejson
   * conda list  
-
-## 
